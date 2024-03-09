@@ -34,7 +34,6 @@ function App() {
 		if(!isGreased){
 			setUnfiltered(hogsWithState)
 			setHogs(hogsWithState.filter((hog) => hog.greased))
-			//handleSort(globalSortType)
 		}
 		else{
 			handleSort(unfilteredHogs)
